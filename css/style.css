@@ -435,6 +435,7 @@ transform: translate(0, 0);
 }
 .icon-dine p {
     line-height:1.9;
+    font-size: 16px;
 }
 
 
@@ -537,11 +538,11 @@ form {
 }
 .fo-info {
     width: 100%;
-    padding: 35px 10px;
+    padding: 30px 10px;
     border: none;
     background: #f2f2f2;
     margin-bottom: 8px;
-    font-size: 20px;
+    font-size: 16px;
 }
 .booking-info h4 {
     color: #9fc4ce;
@@ -573,7 +574,7 @@ form {
     padding: 20px 0px;
 }
 .booking-info p {
-    font-size: 20px;
+    font-size: 16px;
     padding: 15px 0px;
     line-height: 2;
 }
