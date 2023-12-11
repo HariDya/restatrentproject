@@ -1,11 +1,11 @@
 
 /* @font-face{
-	font-family: 'Great Vibes', cursive;
+	font-family: 'Great Vibes';
 	src: url("fonts/GreatVibes-Regular.woff") format("woff");
 	
 }
 @font-face{
-	font-family: 'Lora', serif;
+	font-family: 'Lora';
 	src: url("fonts/Lora-Regular.woff") format("woff");
 	
 }
@@ -61,7 +61,7 @@ header.header-sec {
 .menu li a {
     color: #fff;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
 .icone-menu li {
@@ -164,9 +164,9 @@ transform: scale(1.05);
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #333;
+    background-color: #000;
     width: 100%;
-    opacity: 0.4;
+    opacity: 0.6;
     z-index: 1;
     height: 100%;
 }
@@ -204,8 +204,8 @@ transform: scale(1.05);
 }
 .text p {
     padding: 20px 0px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight:400;
 }
 .text .btn {
     margin-top: 25px;
@@ -302,6 +302,7 @@ section.dining-outer {
 .dining-content p {
     padding: 20px 40px;
     line-height: 1.9;
+    font-size: 16px;
 
 }
 .dining-content .btn a::after {
@@ -424,7 +425,7 @@ transform: translate(0, 0);
 }
 .icon-dine h4 {
     padding: 15px 0px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .icon-dine p {
     line-height:1.9;
@@ -480,7 +481,7 @@ transform: translate(0, 0);
     display: inline-block;
 }
 .testi-info p {
-    font-size: 20px;
+    font-size: 16px;
     padding: 20px 35px;
 }
 .testi-info h2::before {
