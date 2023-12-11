@@ -7,7 +7,7 @@
 @font-face{
 	font-family: 'Lora';
 	src: url("fonts/Lora-Regular.woff") format("woff");
-	
+	Lora-VariableFont_wght
 }
  */
 
@@ -19,6 +19,11 @@
 @font-face{
 	font-family: 'Lora';
 	src: url("fonts/Lora-Regular.woff") format("woff");
+	
+}
+@font-face{
+	font-family: 'Lora';
+	src: url("fonts/Lora-VariableFont_wght.ttf") format("truetype");
 	
 }
 
