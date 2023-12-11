@@ -1,0 +1,109 @@
+<head>
+  <title>How to using slick</title>
+  
+  
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+
+<!--  Slick css  -->
+<!--   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/> -->
+  <style>
+  .slick-prev {
+    left: 50px ;
+    z-index:1111;
+}
+
+.slick-next {
+    right: 50px 
+}
+
+.slicks-slider {
+    margin-bottom: 40px;
+}
+.slick-slider img {
+    display: block;
+    width: 100%;
+}
+.caption-info{
+  position: relative;
+}
+.text-info {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+    z-index: 111;
+}
+  </style>
+</head>
+<body>
+  <div class="basic">
+    <div class="caption-info">
+      <div class="text-info">
+      <h1>Heading 1</h1>
+      <img src="images/Landing.png" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, labore qui? Ad sequi perferendis, iste vitae quis, nesciunt
+         similique omnis cumque quae rem illum dignissimos illo, neque quia ipsa molestiae.</p>
+        
+         <a href="btn"> Submit</a>
+        </div>
+      <div class="inner-slider"><img src="images/homeslider2.jpg" alt=""> </div>
+    </div>
+    <div class="caption-info">
+      <div class="text-info">
+      <h1>Heading 2 </h1>
+      <img src="images/Landing.png" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, labore qui? Ad sequi perferendis, iste vitae quis, nesciunt
+         similique omnis cumque quae rem illum dignissimos illo, neque quia ipsa molestiae.</p>
+        
+         <a href="btn"> Submit</a>
+        </div>
+        <div class="inner-slider"><img src="images/homeslider1.jpg" alt=""> </div>
+    </div>
+    <div class="caption-info">
+      <div class="text-info">
+      <h1>Heading 3</h1>
+      <img src="images/Landing.png" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, labore qui? Ad sequi perferendis, iste vitae quis, nesciunt
+         similique omnis cumque quae rem illum dignissimos illo, neque quia ipsa molestiae.</p>
+        
+         <a href="btn"> Submit</a>
+        </div>
+        <div class="inner-slider"><img src="images/homeslider3.jpg" alt=""> </div>
+    </div>
+</div>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Slick -->
+  
+<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+				
+
+ <!--  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
+
+  </script> -->
+  <script>
+    $('.basic').slick({
+      dots: true,
+      arrows: true,
+      autoplay : true,
+      autoplayspeed : 1000,
+      cssEase: 'ease-in-out',
+    
+    });
+   /*  $('.withOptions').slick({
+      dots: true,
+      arrows: true,
+      autoplay: true,
+      autoplayspeed: 1000,
+      centerMode: true,
+    }); */
+  </script>
+</body>
