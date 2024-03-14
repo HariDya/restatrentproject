@@ -736,7 +736,14 @@ section#dining-outer {
 .hidden {
   display: none;
 }
-
+div#thankYou {
+  text-align: center;
+  padding: 20px;
+  /* border: 1px solid green; */
+  border-radius: 5px;
+  color: green;
+  margin-top: 20px;
+}
 input.submit {
   color: #000000e6;
   border: 2px solid #dc8234;
